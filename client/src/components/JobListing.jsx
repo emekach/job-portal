@@ -108,7 +108,7 @@ const JobListing = () => {
           <div className="flex items-center justify-center space-x-2 mt-10">
             <a href="#job-list">
               <img
-                onClick={() => setCurrentPage(Math.max(currentPage - 1), 1)}
+                onClick={() => setCurrentPage(Math.max(currentPage - 1, 1))}
                 src={assets.left_arrow_icon}
                 alt=""
               />
